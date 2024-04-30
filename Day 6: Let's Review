@@ -1,0 +1,5 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+t=int(input())
+for i in range(0,t):
+    string=input()
+    print(string[0::2]+" "+string[1::2])
